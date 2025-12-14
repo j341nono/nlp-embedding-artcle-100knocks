@@ -1,0 +1,32 @@
+多言語文埋め込みと対照学習におけるAlignment（整列性）とUniformity（一様性）の評価指標
+
+### AlignmentとUniformityの評価指標を使用している他の論文
+- Discovering Low-rank Subspaces for Language-agnostic Multilingual Representations (2023/2024頃の研究)
+言語に依存しない多言語表現の部分空間を探索する研究
+
+- MCSE: Multimodal Contrastive Learning of Sentence Embeddings (Zhang et al., 2022)
+テキストだけでなく画像などのマルチモーダル情報を用いた対照学習の論文
+
+### 言語中立性とアライメントの評価
+- Libovický et al. (2019): "On the Language Neutrality of Pre-trained Multilingual Representations
+mBERTなどがどれくらい「言語中立」かを分析した有名な論文
+
+- Roy et al. (2020): "Larid: Language-agnostic representation learning"
+多言語モデルから言語情報を取り除く（Disentangle）手法を提案
+
+### 多言語空間の幾何学的分析 (Isotropy)
+- Wu & Dredze (2020): "Are All Languages Created Equal in Multilingual BERT?"
+言語ごとに埋め込み空間がどのように配置されているかを分析
+
+- Kudugunta et al. (2019): "Investigating Multilingual NMT Representations at Scale"
+機械翻訳モデルのエンコーダ出力を分析し、言語ごとにクラスター（塊）ができていることを可視化・定量化
+
+### STS にはピアソン相関係数よりもスピアマン相関係数の方が適している
+- Task-Oriented Intrinsic Evaluation of Semantic Textual Similarity
+https://aclanthology.org/C16-1009/
+
+### SimCSE で登場した異方性に言及した論文集
+- On the Sentence Embeddings from Pre-trained Language Models
+- How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings (https://aclanthology.org/D19-1006.pdf)
+特に2つ目は異方性を数学的に証明したものだから必読．SVD を行うと，少しの次元が非常に強い値を持ち，他はほぼ0になる．単語ベクトルは数百次元あっても、実質的にはごく一部の方向（数次元）しか使っておらず，ペチャンコに潰れたような分布になっている．
+
