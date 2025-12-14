@@ -30,3 +30,7 @@ https://aclanthology.org/C16-1009/
 - How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings (https://aclanthology.org/D19-1006.pdf)
 特に2つ目は異方性を数学的に証明したものだから必読．SVD を行うと，少しの次元が非常に強い値を持ち，他はほぼ0になる．単語ベクトルは数百次元あっても、実質的にはごく一部の方向（数次元）しか使っておらず，ペチャンコに潰れたような分布になっている．
 
+
+### 読むべき論文
+塚越さんの SimCSE の解説記事の最後とリンクしているが，
+PromptEOL　の関連研究が良さそう
