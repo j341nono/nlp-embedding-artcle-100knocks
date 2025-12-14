@@ -18,14 +18,14 @@
 - 過去の研究では BERT の最終層の平均プーリングを使用する方が，CLS トークンをそのまま使用するよりも良い結果となることが報告されていた．これが SimCSE でも同様なのかを実験した．BERT の元の実装では，CLS トークンの後に 全結合層のMLP があるため，以下の3つの条件 (1)学習時も推論時もMLP層を通した出力を使用する，(2)MLP を取り払い，CLS トークンの出力をそのまま使用する，(3)学習時は MLP層を通して学習し，推論時は MLP を捨てて，手前の CLS トークンを使用する．実験の結果，Unsupervised SimCSE では (3)が最も高い性能を示し，Supervised SimCSE では，これらの手法の違いはあまりなかった．平均プーリングもほぼ同等だった．これを受けて，Unsupervised SimCSE では(3)を，Supervised SimCSE では，(1) を使用した．
 
 - BERT における各種手法による文埋め込みの Alignment と Uniformity をプロットした図．
-![figure3](assets/002_SimCSE/figure3.png)
+![figure3](./../../assets/002_SimCSE/figure3.png)
     - 2つの指標が良いほど，良い性能を達成することがわかり，これは Alignment/Uniformity を提案した元論文での見解と一致する．
     - 事前学習済みモデルにおける埋め込みを通すことで，Alignment　が良いが，Uniformity は低いことがわかる．
     - BERT-flow や BERT-whitening などの後処理的手法は Uniformity を非常に改善するが，Alignment が大幅に低下した．
 
 - Singular value distributions の図．
 Singular value distributions は埋め込みベクトルが空間ないでどのように広がっているかの分布の形状を表す指標である．つまり，モデルが表現空間の次元をどれだけ有効活用できているかを示している．
-![figureF1](assets/002_SimCSE/figureF1.png)
+![figureF1](./../assets/002_SimCSE/figureF1.png)
     - BBERT や SBERT は特異値がすぐに低下しており，異方性の問題を抱えていることを示している．
     - SimCSE は BERT に比べてなだらかになっている．対照学習によって，似ていない文同士を遠ざけて Uniformity を向上させた結果，空間を広く使えるようになったため．
     - BERT-flow や BERT-whitening はさらにフラットで良いが，（これらは強制的に分布を球場にする手法なので，無理やり形だけ整えるよりも学習過程で自然に広がりをも持たせた SimCSE の方が意味的な構造とのバランスが良い，と主張している．）
