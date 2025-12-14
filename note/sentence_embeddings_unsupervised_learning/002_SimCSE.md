@@ -25,7 +25,7 @@
 
 - Singular value distributions の図．
 Singular value distributions は埋め込みベクトルが空間ないでどのように広がっているかの分布の形状を表す指標である．つまり，モデルが表現空間の次元をどれだけ有効活用できているかを示している．
-![figureF1](./../assets/002_SimCSE/figureF1.png)
+![figureF1](./../../assets/002_SimCSE/figureF1.png)
     - BBERT や SBERT は特異値がすぐに低下しており，異方性の問題を抱えていることを示している．
     - SimCSE は BERT に比べてなだらかになっている．対照学習によって，似ていない文同士を遠ざけて Uniformity を向上させた結果，空間を広く使えるようになったため．
     - BERT-flow や BERT-whitening はさらにフラットで良いが，（これらは強制的に分布を球場にする手法なので，無理やり形だけ整えるよりも学習過程で自然に広がりをも持たせた SimCSE の方が意味的な構造とのバランスが良い，と主張している．）
