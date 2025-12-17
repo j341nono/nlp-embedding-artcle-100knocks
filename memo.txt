@@ -7,6 +7,9 @@
 - MCSE: Multimodal Contrastive Learning of Sentence Embeddings (Zhang et al., 2022)
 テキストだけでなく画像などのマルチモーダル情報を用いた対照学習の論文
 
+- Discovering Low-rank Subspaces for Language-agnostic Multilingual Representations
+言語に依存しない多言語表現の部分空間を探索する研究
+
 ### 言語中立性とアライメントの評価
 - Libovický et al. (2019): "On the Language Neutrality of Pre-trained Multilingual Representations
 mBERTなどがどれくらい「言語中立」かを分析した有名な論文
@@ -34,3 +37,13 @@ https://aclanthology.org/C16-1009/
 ### 読むべき論文
 塚越さんの SimCSE の解説記事の最後とリンクしているが，
 PromptEOL　の関連研究が良さそう
+
+
+aclanthology で「Simple Techniques for Enhancing Sentence Embeddings in Generative Language Models」を検索して，上位から全て読む，とか
+- Improving Text Embeddings with Large Language Models
+- Token Prepending: A Training-Free Approach for Eliciting Better Sentence Embeddings from LLMs
+- Contrastive Prompting Enhances Sentence Embeddings in LLMs through Inference-Time Steering
+- Enhancing Unsupervised Sentence Embeddings via Knowledge-Driven Data Augmentation and Gaussian-Decayed Contrastive Learning
+- GASE: Generatively Augmented Sentence Encoding
+- EasyRec: Simple yet Effective Language Models for Recommendation
+

@@ -8,6 +8,8 @@
 | 002 | [SimCSE: Simple Contrastive Learning of Sentence Embeddings](./note/002_SimCSE.md) | 2021 | EMNLP | #Contrastive #Isotropy | Done |
 | 003 | [Scaling Sentence Embeddings with Large Language Models](./note/003_PromptEOL.md) | 2024 | EMNLP-findings | #Prompt #Contrastive | Done |
 | 004 | [Task-Oriented Intrinsic Evaluation of Semantic Textual Similarity](./note/004_metrics.md) | 2016 | EMNLP-findings | #Metrics | Done |
+| 005 | [https://arxiv.org/abs/2404.03921y](./note/005_PCoTEOL.md) | 2024 | ICIC-2024 | #Prompt | Done |
+
 
 
 
