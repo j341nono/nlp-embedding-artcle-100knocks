@@ -7,8 +7,7 @@
 - MCSE: Multimodal Contrastive Learning of Sentence Embeddings (Zhang et al., 2022)
 テキストだけでなく画像などのマルチモーダル情報を用いた対照学習の論文
 
-- Discovering Low-rank Subspaces for Language-agnostic Multilingual Representations
-言語に依存しない多言語表現の部分空間を探索する研究
+
 
 ### 言語中立性とアライメントの評価
 - Libovický et al. (2019): "On the Language Neutrality of Pre-trained Multilingual Representations
@@ -21,12 +20,10 @@ mBERTなどがどれくらい「言語中立」かを分析した有名な論文
 - Wu & Dredze (2020): "Are All Languages Created Equal in Multilingual BERT?"
 言語ごとに埋め込み空間がどのように配置されているかを分析
 
+
+
 - Kudugunta et al. (2019): "Investigating Multilingual NMT Representations at Scale"
 機械翻訳モデルのエンコーダ出力を分析し、言語ごとにクラスター（塊）ができていることを可視化・定量化
-
-### STS にはピアソン相関係数よりもスピアマン相関係数の方が適している
-- Task-Oriented Intrinsic Evaluation of Semantic Textual Similarity
-https://aclanthology.org/C16-1009/
 
 ### SimCSE で登場した異方性に言及した論文集
 - On the Sentence Embeddings from Pre-trained Language Models

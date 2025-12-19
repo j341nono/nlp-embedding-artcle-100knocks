@@ -8,9 +8,14 @@
 | 002 | [SimCSE: Simple Contrastive Learning of Sentence Embeddings](./note/002_SimCSE.md) | 2021 | EMNLP | #Contrastive #Isotropy | Done |
 | 003 | [Scaling Sentence Embeddings with Large Language Models](./note/003_PromptEOL.md) | 2024 | EMNLP-findings | #Prompt #Contrastive | Done |
 | 004 | [Task-Oriented Intrinsic Evaluation of Semantic Textual Similarity](./note/004_metrics.md) | 2016 | EMNLP-findings | #Metrics | Done |
-| 005 | [Simple Techniques for Enhancing Sentence Embeddings in Generative Language Models](./note/005_PCoTEOL.md) | 2024 | ICIC-2024 | #Prompt | Done |
+| 005 | [Simple Techniques for Enhancing Sentence Embeddings in Generative Language Models](./note/005_PCoTEOL.md) | 2024 | ICIC | #Prompt | Done |
+| 006 | [How Contextual are Contextualized Word Representations? Comparing the Geometry of BERT, ELMo, and GPT-2 Embeddings](./note/006_.Geometry.md) | 2019 | EMNLP | #Anisotropy | Done |
 
 
+
+
+
+| 00x | [On the Language Neutrality of Pre-trained Multilingual Representations](./note/006_mBERT_lang_neutral.md) | 2020 | EMNLP-findings | #Language | To Read |
 
 
 
